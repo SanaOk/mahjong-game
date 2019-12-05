@@ -1,0 +1,16 @@
+.card{
+    display: flex;
+    justify-content: center;
+    border: 3px solid darkgrey;
+}
+.number {
+    cursor: pointer;
+    opacity:0;
+    align-self: center;
+}
+.visible {
+    border: 3px solid steelblue;
+}
+.visible .number{
+    opacity:1;
+}
